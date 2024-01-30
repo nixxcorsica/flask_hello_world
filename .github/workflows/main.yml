@@ -10,7 +10,12 @@ jobs:
           host: ${{ secrets.ssh-npc.alwaysdata.net }}
           username: ${{ secrets.npc }}
           password: ${{ secrets.Test@123456 }}
-          key: ${{ secrets.EC2_SSH_KEY }}
+          key: ${{ secrets.b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABDGR0EIdG
+Nxf8pAgw3yS0dTAAAAEAAAAAEAAAAzAAAAC3NzaC1lZDI1NTE5AAAAIH9FcVjmuoIycAgc
+6t7fW1MG1L3w9+4Ws9BGnAcOS5YYAAAAkIABpq6eb236RSLiZnhWb18+cwC7RaajcehC7C
+Y5MzwL570deE5uGQYteDAeV1unxHwOFtI7YnGT3jRqEv+TDFwFy0ppaWzpYLOP5KGqOnXU
+JJTECp229lH3x8LHaQQi9jr9YfolUTrtdgohq+MGBzKN6OUGqr+QgJBnotpcTo1fPaqhzR
+uRzqMSb5nzbsseNw== }}
           script: |
             cd $HOME/www/
             git clone https://github.com/nixxcorsica/flask_hello_world.git
