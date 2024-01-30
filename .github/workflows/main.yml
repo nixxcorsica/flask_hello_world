@@ -7,9 +7,9 @@ jobs:
       - name: Deploy Flask app
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST_DNS }}
+          host: ${{ secrets.ssh-npc.alwaysdata.net }}
           username: ${{ secrets.npc }}
-          password: ${{ secrets.Test123456 }}
+          password: ${{ secrets.Test@123456 }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd $HOME/www/
